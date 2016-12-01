@@ -91,6 +91,8 @@ node default {
 
 # Custom
 
+include nvm
+
 # Brewcask apps
 include brewcask
 package {'postman': provider => 'brewcask'}
