@@ -108,7 +108,9 @@ package {'xbench': provider => 'brewcask'}
 package {'eclipse-java': provider => 'brewcask'}
 package {'soapui': provider => 'brewcask'}
 package {'java': provider => 'brewcask'}
-package {'java7': provider => 'brewcask'}
+package {'docker': provider => 'brewcask'}
+package {'mactex': provider => 'brewcask'}
+package {'firefox': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
 # Brew packages
