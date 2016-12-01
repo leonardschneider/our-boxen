@@ -91,8 +91,6 @@ node default {
 
 # Custom
 
-include janus
-
 # Brewcask apps
 include brewcask
 package {'postman': provider => 'brewcask'}
