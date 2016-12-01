@@ -98,5 +98,6 @@ include tunnelblick
 # Brewcask apps
 include brewcask
 package {'postman': provider => 'brewcask'}
+package {'kindle': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
