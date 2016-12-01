@@ -124,4 +124,5 @@ package {'graphviz':}
 package {'ctags':}
 package {'cscope':}
 package {'fasd':}
+package {'chruby':}
 
