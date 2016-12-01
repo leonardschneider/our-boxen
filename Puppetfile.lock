@@ -99,11 +99,6 @@ GITHUBTARBALL
     tunnelblick (1.0.7)
 
 GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.9)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -147,6 +142,5 @@ DEPENDENCIES
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
   tunnelblick (>= 0)
-  virtualbox (>= 0)
   xquartz (= 1.2.1)
 
