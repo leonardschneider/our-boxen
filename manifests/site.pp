@@ -107,12 +107,18 @@ package {'wireshark': provider => 'brewcask'}
 package {'xbench': provider => 'brewcask'}
 package {'eclipse-java': provider => 'brewcask'}
 package {'soapui': provider => 'brewcask'}
+package {'java': provider => 'brewcask'}
+package {'java7': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
 # Brew packages
 package {'gcviewer':}
 package {'jenv':}
-package {'java':}
-package {'java7':}
 package {'vim':}
+package {'maven':}
+package {'gradle':}
+package {'sbt':}
+package {'graphviz':}
+package {'ctags':}
+package {'cscope':}
 
