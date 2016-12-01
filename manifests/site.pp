@@ -110,7 +110,6 @@ package {'soapui': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
 # Brew packages
-include brew
 package {'gcviewer':}
 package {'jenv':}
 package {'java':}
