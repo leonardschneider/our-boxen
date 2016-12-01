@@ -9,9 +9,19 @@ GITHUBTARBALL
     brewcask (0.0.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -84,6 +94,16 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -106,7 +126,9 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.7)
+  chrome (>= 0)
   dnsmasq (= 2.0.2)
+  dropbox (>= 0)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.10.0)
@@ -124,5 +146,7 @@ DEPENDENCIES
   ruby (= 8.5.4)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
+  tunnelblick (>= 0)
+  virtualbox (>= 0)
   xquartz (= 1.2.1)
 

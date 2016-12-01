@@ -93,6 +93,5 @@ node default {
 
 include chrome
 include dropbox
-include virtualbox
 include tunnelblick
 
