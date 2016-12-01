@@ -91,6 +91,8 @@ node default {
 
 # Custom
 
+include janus
+
 # Brewcask apps
 include brewcask
 package {'postman': provider => 'brewcask'}
@@ -123,4 +125,5 @@ package {'sbt':}
 package {'graphviz':}
 package {'ctags':}
 package {'cscope':}
+package {'fasd':}
 
