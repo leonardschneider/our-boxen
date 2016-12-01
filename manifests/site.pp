@@ -91,10 +91,6 @@ node default {
 
 # Custom
 
-include chrome
-include dropbox
-include tunnelblick
-
 # Brewcask apps
 include brewcask
 package {'postman': provider => 'brewcask'}
@@ -103,5 +99,21 @@ package {'amazon-music': provider => 'brewcask'}
 package {'cyberduck': provider => 'brewcask'}
 package {'steam': provider => 'brewcask'}
 package {'skype': provider => 'brewcask'}
+package {'google-chrome': provider => 'brewcask'}
+package {'tunnelblick': provider => 'brewcask'}
+package {'dropbox': provider => 'brewcask'}
+package {'macvim': provider => 'brewcask'}
+package {'wireshark': provider => 'brewcask'}
+package {'xbench': provider => 'brewcask'}
+package {'eclipse-java': provider => 'brewcask'}
+package {'soapui': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
+
+# Brew packages
+include brew
+package {'gcviewer':}
+package {'jenv':}
+package {'java':}
+package {'java7':}
+package {'vim':}
 
