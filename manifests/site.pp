@@ -88,3 +88,11 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# Custom
+
+include chrome
+include dropbox
+include virtualbox
+include tunnelblick
+
