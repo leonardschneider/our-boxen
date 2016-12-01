@@ -94,7 +94,6 @@ node default {
 include chrome
 include dropbox
 include tunnelblick
-include skype
 
 # Brewcask apps
 include brewcask
@@ -103,5 +102,6 @@ package {'kindle': provider => 'brewcask'}
 package {'amazon-music': provider => 'brewcask'}
 package {'cyberduck': provider => 'brewcask'}
 package {'steam': provider => 'brewcask'}
+package {'skype': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
