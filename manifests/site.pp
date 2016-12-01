@@ -95,7 +95,8 @@ include chrome
 include dropbox
 include tunnelblick
 
+# Brewcask apps
 include brewcask
-
-package {'avira-antivirus': provider => 'brewcask'}
+package {'postman': provider => 'brewcask'}
+#package {'avira-antivirus': provider => 'brewcask'}
 
