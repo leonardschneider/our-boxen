@@ -95,7 +95,6 @@ include chrome
 include dropbox
 include tunnelblick
 include skype
-include steam
 
 # Brewcask apps
 include brewcask
@@ -103,5 +102,6 @@ package {'postman': provider => 'brewcask'}
 package {'kindle': provider => 'brewcask'}
 package {'amazon-music': provider => 'brewcask'}
 package {'cyberduck': provider => 'brewcask'}
+package {'steam': provider => 'brewcask'}
 #package {'avira-antivirus': provider => 'brewcask'}
 
