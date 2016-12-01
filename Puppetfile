@@ -69,4 +69,5 @@ github "xquartz",     "1.2.1"
 github "chrome"
 github "dropbox"
 github "tunnelblick"
+github "skype"
 
