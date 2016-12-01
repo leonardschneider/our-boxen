@@ -125,4 +125,5 @@ package {'ctags':}
 package {'cscope':}
 package {'fasd':}
 package {'chruby':}
+package {'node':}
 
