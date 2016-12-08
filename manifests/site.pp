@@ -128,8 +128,8 @@ package {'cscope':}
 package {'fasd':}
 package {'chruby':}
 package {'node':}
-class clojure {
+class grep {
   homebrew::tap { 'homebrew/versions': }
-  package {'grep':}
+  package {'boxen/brews/grep':}
 }
 
