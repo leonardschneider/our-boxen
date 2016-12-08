@@ -54,6 +54,11 @@ GITHUBTARBALL
     nodejs (5.0.9)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nvm
+  specs:
+    nvm (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -117,6 +122,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   nginx (= 1.7.0)
   nodejs (= 5.0.9)
+  nvm (>= 0)
   openssl (= 1.0.0)
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
