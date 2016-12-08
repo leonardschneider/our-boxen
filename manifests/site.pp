@@ -129,7 +129,7 @@ package {'fasd':}
 package {'chruby':}
 package {'node':}
 class grep {
-  homebrew::tap { 'homebrew/versions': }
+  homebrew::tap { 'homebrew/dupes': }
   package {'boxen/brews/grep':}
 }
 
